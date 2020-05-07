@@ -1,0 +1,16 @@
+{
+    "target": "elm_make",
+    "selector": "source.elm",
+    "cmd":
+    [
+        "{elm_binary}",
+        "make",
+        "$file",
+        "--output=/dev/null",
+        "--report=json"
+    ],
+    "cancel":
+    {
+        "kill": true
+    }
+}

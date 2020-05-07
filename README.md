@@ -12,3 +12,5 @@ This plugin is designed to be used together with [Elm Syntax Highlighting](https
 2. Unpack and rename the folder to `Elm Make this File` 
 3. In Sublime Text, got to `Preferences > Browse Packages` and then copy the above folder to the Packages folder
 4. Restart Sublime Text
+
+To build the current file, select `Elm` from `Tools > Build Systems` and then press `Ctrl+B` (Cmd+B on Mac). 
